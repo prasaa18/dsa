@@ -26,6 +26,6 @@ public class ceilingOflLetter {
                 start = mid + 1;
             }
         }
-        return arr[start % arr.length];     //2%4 =1
+        return arr[start % arr.length];     //2%4 =2
     }
 }

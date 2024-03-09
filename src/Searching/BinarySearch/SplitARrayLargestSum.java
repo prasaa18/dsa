@@ -17,7 +17,7 @@ public class SplitARrayLargestSum {
         while(start<end){
             //try for the middle as pottendtial ans
             int mid =start+(end-start)/2;
-            // mid gives avg which means below that no of rang 10 to mid conayins answer i,e smallest of largest su, aaray
+            // mid gives avg which means below that no of rang 10 to mid conains answer i,e smallest of largest su, aaray
 
             //calculate how many pieces you can divide in withis max sum
             int sum=0;

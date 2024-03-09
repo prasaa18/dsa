@@ -9,7 +9,7 @@ public class basic {
         li.add(2);
         System.out.println(li);
         for(int l:li){
-            System.out.println(l);       //li.add(nextInt())   to fetch user input
+            System.out.println(l);       //li.get(i).add(in.nextInt())   to fetch user input
 
         }
         for( int i=0;i<li.size(); i++){
