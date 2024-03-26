@@ -12,7 +12,9 @@ public class FlippingImage {
 
         int arr [][] = {{1, 1 ,0}, {1,0,1},{0,0,0}};
            flipAndInvertImage(arr);
-        System.out.println(Arrays.toString(arr));  for(int row=0; row< arr.length ; row++){
+           System.out.println(Arrays.toString(arr));
+
+        for(int row=0; row< arr.length ; row++){
             System.out.println(Arrays.toString(arr[row]));
         }
     }
