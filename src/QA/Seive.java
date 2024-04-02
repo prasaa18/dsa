@@ -15,6 +15,7 @@ public class Seive {
     // false in array means number is prime   the make multiple of that no  to true
     static  void sieve(boolean [] prime , int n){
         for(int i= 2; i * i <= n; i++){
+
             if(!prime[i]){
                 for(int j= i * 2; j <= n; j += i){   //2 +2  or 3+3 multile
                     prime[j] = true;

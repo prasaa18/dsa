@@ -10,6 +10,7 @@ public class NewtonSQRT {
         double root ;
         while(true){
              root = 0.5 *( x + (n / x ));
+
             if(Math.abs(root-x)< 1){       //precison value whtaevere it is eeither 1 or 0.5
                 break;
             }

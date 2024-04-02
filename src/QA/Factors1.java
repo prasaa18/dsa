@@ -36,7 +36,7 @@ public class Factors1 {
     // both time and space will be O(sqrtn)
 
        // to sort then in acending order
-    static  void factors3(int n){455555
+    static  void factors3(int n){
 
         ArrayList<Integer> li= new ArrayList<>();
 
